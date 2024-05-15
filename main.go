@@ -41,7 +41,7 @@ func main() {
 	if err != nil {
 		fmt.Println("Error", err)
 	}
-	fmt.Println("Input File Path:", inputfilePath)
-	fmt.Println("Output File Path:", outputfilePath)
+	// fmt.Println("Input File Path:", inputfilePath)
+	// fmt.Println("Output File Path:", outputfilePath)
 	fmt.Println("inputFile:", inputfile)
 }
