@@ -42,7 +42,7 @@ func TestOpenFile(t *testing.T) {
 			t.Errorf("expected error for file with wron extension, but found none")
 		}
 	})
-	
+
 	// test for wrong file name , return error if wrong file names are used
 	inputfilePath = "empty.txt"
 	t.Run("Opening file with wrong name", func(t *testing.T) {
@@ -54,6 +54,7 @@ func TestOpenFile(t *testing.T) {
 }
 
 // optimized function that eliminates redundancy
+// create a struct and loop through each possible test case
 func TestOpenFile2(t *testing.T) {
 	testcases := []struct {
 		name            string
